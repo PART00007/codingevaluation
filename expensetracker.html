@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         h1{
+             margin-left:530px;
+             color: blue;
+             text-decoration: underline;
+         }
+         #login{
+             display: flex;
+             box-shadow: 1px 1px 1px 1px gainsboro;
+             width: 30%;
+             margin: auto;
+             margin-top: 60px;
+             height: 330px;
+             box-shadow: 1px rgb(207, 210, 214);
+         }
+         input{
+             width: 340px;
+             margin-left: 30px;
+             height: 30px;
+             border-radius: 5px;
+             margin-top: -10px;
+             box-shadow: 1px 1px 1px 1px gainsboro;
+             color: gray;
+         }
+         h3{
+             margin-left: 30px;
+         }
+         #submit{
+             background-color: blue;
+             border-radius: 30px;
+             color: white;
+             margin-top: 20px;
+             height: 40px;
+             font-size: 20px;
+         }
+         select{
+            width: 340px;
+             margin-left: 30px;
+             height: 30px;
+             border-radius: 5px;
+             margin-top: -10px;
+             box-shadow: 1px 1px 1px 1px gainsboro;
+             color: gray; 
+         }
+    </style>
+</head>
+
+
+<body>
+    <h1>
+        EXPENSE TRACKER
+    </h1>
+    <div id="login">
+    <form id="myform">
+        
+        <h3>select month</h3>
+        <select id="cars">
+            <option value="">january</option>
+            <option value="">February</option>
+            <option value="">March</option>
+            <option value="">April</option>
+            <option value="">May</option>
+            <option value="">June</option>
+            <option value="">July</option>
+            <option value="">August</option>
+            <option value="">September</option>
+            <option value="">October</option>
+            <option value="">November</option>
+            <option value="">December</option>
+
+          </select>
+        
+       <h3>income</h3>
+        <input type="number" placeholder="enter income in rs" id="income"/>
+        <h3>expense</h3>
+        <input type="number" placeholder="enter expense in rs" id="expense"/>
+        <input type="submit" id="submit"/>
+    </form>
+    </div>
+</body>
+</html>
